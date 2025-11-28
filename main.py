@@ -97,7 +97,7 @@ def sendMail():
     """.format(code=verification_code)
 
     message = MIMEMultipart("alternative")
-    message["From"] = "pluto <post@pe4en1e.ru>"
+    message["From"] = "PollFlow <post@pe4en1e.ru>"
     message["To"] = recipient_email
     message["Subject"] = subject
 
